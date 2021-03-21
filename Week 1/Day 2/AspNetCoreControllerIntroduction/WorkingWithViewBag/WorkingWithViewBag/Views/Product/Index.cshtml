@@ -1,0 +1,23 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ürün Listesi</h1>
+
+<h1>@ViewBag.UrunAdi</h1>
+
+<h1>@ViewBag.Kategori</h1>
+
+<h1>@ViewBag.Adet</h1>
+
+<h1>@ViewBag.Fiyat</h1>
+
+<table>
+    <tr>
+        <td>Urunadı</td>
+        t<rd>Açıklama</rd>
+        <td>@Model.Description</td> 
+    </tr>
+</table>
+
