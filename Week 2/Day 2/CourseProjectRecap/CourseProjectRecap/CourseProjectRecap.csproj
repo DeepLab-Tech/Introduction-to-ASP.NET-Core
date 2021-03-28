@@ -1,0 +1,109 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\eshopper\404.html" />
+    <None Include="wwwroot\eshopper\blog-single.html" />
+    <None Include="wwwroot\eshopper\blog.html" />
+    <None Include="wwwroot\eshopper\cart.html" />
+    <None Include="wwwroot\eshopper\checkout.html" />
+    <None Include="wwwroot\eshopper\contact-us.html" />
+    <None Include="wwwroot\eshopper\css\animate.css" />
+    <None Include="wwwroot\eshopper\css\bootstrap.min.css" />
+    <None Include="wwwroot\eshopper\css\font-awesome.min.css" />
+    <None Include="wwwroot\eshopper\css\main.css" />
+    <None Include="wwwroot\eshopper\css\prettyPhoto.css" />
+    <None Include="wwwroot\eshopper\css\price-range.css" />
+    <None Include="wwwroot\eshopper\css\responsive.css" />
+    <None Include="wwwroot\eshopper\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\eshopper\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\eshopper\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\eshopper\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\eshopper\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\eshopper\images\404\404.png" />
+    <None Include="wwwroot\eshopper\images\blog\blog-one.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\blog-three.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\blog-two.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\man-four.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\man-one.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\man-three.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\man-two.jpg" />
+    <None Include="wwwroot\eshopper\images\blog\socials.png" />
+    <None Include="wwwroot\eshopper\images\cart\one.png" />
+    <None Include="wwwroot\eshopper\images\cart\three.png" />
+    <None Include="wwwroot\eshopper\images\cart\two.png" />
+    <None Include="wwwroot\eshopper\images\home\bg_border.png" />
+    <None Include="wwwroot\eshopper\images\home\gallery1.jpg" />
+    <None Include="wwwroot\eshopper\images\home\gallery2.jpg" />
+    <None Include="wwwroot\eshopper\images\home\gallery3.jpg" />
+    <None Include="wwwroot\eshopper\images\home\gallery4.jpg" />
+    <None Include="wwwroot\eshopper\images\home\girl1.jpg" />
+    <None Include="wwwroot\eshopper\images\home\girl2.jpg" />
+    <None Include="wwwroot\eshopper\images\home\girl3.jpg" />
+    <None Include="wwwroot\eshopper\images\home\iframe1.png" />
+    <None Include="wwwroot\eshopper\images\home\iframe2.png" />
+    <None Include="wwwroot\eshopper\images\home\iframe3.png" />
+    <None Include="wwwroot\eshopper\images\home\iframe4.png" />
+    <None Include="wwwroot\eshopper\images\home\logo.png" />
+    <None Include="wwwroot\eshopper\images\home\map.png" />
+    <None Include="wwwroot\eshopper\images\home\new.png" />
+    <None Include="wwwroot\eshopper\images\home\partner1.png" />
+    <None Include="wwwroot\eshopper\images\home\partner2.png" />
+    <None Include="wwwroot\eshopper\images\home\partner3.png" />
+    <None Include="wwwroot\eshopper\images\home\partner4.png" />
+    <None Include="wwwroot\eshopper\images\home\pricing.png" />
+    <None Include="wwwroot\eshopper\images\home\product1.jpg" />
+    <None Include="wwwroot\eshopper\images\home\product2.jpg" />
+    <None Include="wwwroot\eshopper\images\home\product3.jpg" />
+    <None Include="wwwroot\eshopper\images\home\product4.jpg" />
+    <None Include="wwwroot\eshopper\images\home\product5.jpg" />
+    <None Include="wwwroot\eshopper\images\home\product6.jpg" />
+    <None Include="wwwroot\eshopper\images\home\recommend1.jpg" />
+    <None Include="wwwroot\eshopper\images\home\recommend2.jpg" />
+    <None Include="wwwroot\eshopper\images\home\recommend3.jpg" />
+    <None Include="wwwroot\eshopper\images\home\sale.png" />
+    <None Include="wwwroot\eshopper\images\home\searchicon.png" />
+    <None Include="wwwroot\eshopper\images\home\shipping.jpg" />
+    <None Include="wwwroot\eshopper\images\product-details\1.jpg" />
+    <None Include="wwwroot\eshopper\images\product-details\new.jpg" />
+    <None Include="wwwroot\eshopper\images\product-details\rating.png" />
+    <None Include="wwwroot\eshopper\images\product-details\share.png" />
+    <None Include="wwwroot\eshopper\images\product-details\similar1.jpg" />
+    <None Include="wwwroot\eshopper\images\product-details\similar2.jpg" />
+    <None Include="wwwroot\eshopper\images\product-details\similar3.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\advertisement.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product10.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product11.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product12.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product7.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product8.jpg" />
+    <None Include="wwwroot\eshopper\images\shop\product9.jpg" />
+    <None Include="wwwroot\eshopper\index.html" />
+    <None Include="wwwroot\eshopper\js\bootstrap.min.js" />
+    <None Include="wwwroot\eshopper\js\contact.js" />
+    <None Include="wwwroot\eshopper\js\gmaps.js" />
+    <None Include="wwwroot\eshopper\js\html5shiv.js" />
+    <None Include="wwwroot\eshopper\js\jquery.js" />
+    <None Include="wwwroot\eshopper\js\jquery.prettyPhoto.js" />
+    <None Include="wwwroot\eshopper\js\jquery.scrollUp.min.js" />
+    <None Include="wwwroot\eshopper\js\main.js" />
+    <None Include="wwwroot\eshopper\js\price-range.js" />
+    <None Include="wwwroot\eshopper\login.html" />
+    <None Include="wwwroot\eshopper\product-details.html" />
+    <None Include="wwwroot\eshopper\sendemail.php" />
+    <None Include="wwwroot\eshopper\shop.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
