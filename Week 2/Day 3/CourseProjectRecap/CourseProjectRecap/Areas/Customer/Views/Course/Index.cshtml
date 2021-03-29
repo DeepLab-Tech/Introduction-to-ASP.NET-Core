@@ -1,0 +1,43 @@
+﻿@model IEnumerable<CourseProjectRecap.Models.Course>  
+
+@{
+    Layout  = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-12">
+        <div class="owl-slide-3 owl-carousel">
+            
+            @foreach (var item in Model)
+            {
+                <div class="course-1-item">
+                    <figure class="thumnail">
+                        <a href="course-single.html"><img src="academics-master/images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                        <div class="price">@item.Price</div>
+                        <div class="category">
+                            <h3>@item.Department.DepartmentName</h3></div>
+                    </figure>
+                    <div class="course-1-content pb-4">
+                        <h2>@item.CourseName</h2>
+                        <div class="rating text-center mb-3">
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                            <span class="icon-star2 text-warning"></span>
+                        </div>
+                        <p class="desc mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusantium ipsam.</p>
+                        <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Kursa Kayıt Ol</a></p>
+                    </div>
+                </div>
+            }
+            
+
+            
+
+
+
+        </div>
+
+    </div>
+</div>
