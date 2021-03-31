@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CourseProjectRecap.Models.Course>  
+
+@{
+    Layout  = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="overviews" class="section wb">
+    <div class="container">
+        <div class="section-title row text-center">
+            <div class="col-md-8 offset-md-2">
+                <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem!</p>
+            </div>
+        </div><!-- end title -->
+
+        <hr class="invis">
+
+        <div class="row">
+            @foreach (var item in Model )
+            {
+                <div class="col-lg-4 col-md-6 col-12">
+                   
+                    <div class="course-item">
+                        <div class="image-blog">
+                            <img src="smartedu/images/blog_1.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="course-br">
+                            <div class="course-title">
+                                <h2><a href="#" title="">@item.CourseName</a></h2>
+                            </div>
+                            <div class="course-desc">
+                                <p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+                            </div>
+                            <div class="course-rating">
+                                4.5
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                        <div class="course-meta-bot">
+                            <ul>
+                                <li><i class="fa fa-calendar" aria-hidden="true"></i> 6 Month</li>
+                                <li><i class="fa fa-users" aria-hidden="true"></i> 56 Student</li>
+                                <li><i class="fa fa-book" aria-hidden="true"></i> 7 Books</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end col -->
+            }
+            
+
+
+        </div><!-- end row -->
+
+        <hr class="hr3">
+
+        
+    </div><!-- end container -->
+</div>
