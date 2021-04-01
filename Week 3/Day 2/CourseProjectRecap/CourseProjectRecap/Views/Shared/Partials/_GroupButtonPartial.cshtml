@@ -1,0 +1,9 @@
+﻿@model int
+
+<td style="width: 150px">
+    <div class="btn-group" role="group">
+        <a type="button" class="btn btn-primary btn-sm" href="@Url.Action($"Edit",new {id=Model})">Düzenle</a>
+        <a type="button" class="btn btn-success btn-sm" href="@Url.Action($"Details",new {id=Model})">Detay</a>
+        <a type="button" class="btn btn-danger btn-sm" href="@Url.Action($"Delete",new {id=Model})">Sil</a>
+    </div>
+</td>
